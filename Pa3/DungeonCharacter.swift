@@ -9,13 +9,21 @@
 import Foundation
 
 class DungeonCharacter {
-    var name: String = "Character"
-    var hitpoints: Int = 100
-    var attackSpeed: Int = 10
-    var damRange: [Int] = [1,50]
-    var hitChance: Double = 0.5
-    var attack: Int = 0
+    var name: String 
+    var hitpoints: Int
+    var attackSpeed: Int
+    var damRange: [Int]
+    var hitChance: Double
+    var attack: Int
     
+    init() {
+        self.name = "Character"
+        self.hitpoints = 0
+        self.attackSpeed = 0
+        self.damRange = [0,0]
+        self.hitChance = 0.0
+        self.attack = 0
+    }
     func setAttack() {
         if hitChance > 0.0 {
             attack = Int.random(in: damRange[0]...damRange[1])
