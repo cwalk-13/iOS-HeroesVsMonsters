@@ -8,11 +8,14 @@
 
 import Foundation
 class Hero: DungeonCharacter {
-    var blockChance: Double = 0.0
-    var numOfTurns: Int = 0
-   
-    override init() {
-        super.init()
+    var blockChance: Double
+    var numOfTurns: Int
+
+    
+    init(bC: Double, numTurns: Int, hp: Int, aS: Int, dr: [Int], hc: Double, a: Int) {
+        blockChance = bC
+        numOfTurns = numTurns
+        super.init(name: "Character", hp: hp, aS: aS, dr: dr, hc: hc, a: a)
     }
     
     func makeName() {
@@ -20,8 +23,6 @@ class Hero: DungeonCharacter {
         let input = readLine()
         if let theName = input {
             self.name = theName
-            return
         }
-        return
     }
 }

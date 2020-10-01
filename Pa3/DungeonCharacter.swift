@@ -16,18 +16,22 @@ class DungeonCharacter {
     var hitChance: Double
     var attack: Int
     
-    init() {
-        self.name = "Character"
-        self.hitpoints = 0
-        self.attackSpeed = 0
-        self.damRange = [0,0]
-        self.hitChance = 0.0
-        self.attack = 0
+    init(name: String, hp: Int, aS: Int, dr: [Int], hc: Double, a: Int) {
+        self.name = name
+        self.hitpoints = hp
+        self.attackSpeed = aS
+        self.damRange = dr
+        self.hitChance = hc
+        self.attack = a
     }
     func setAttack() {
+        var chance: Double
         if hitChance > 0.0 {
-            attack = Int.random(in: damRange[0]...damRange[1])
-            print("\(name) attacks for: \(attack) damage")
+            chance = Double.random(in: 0.0...1.0)
+            if chance <= hitChance {
+                self.attack = Int.random(in: damRange[0]...damRange[1])
+                print("\(name) attacks for: \(attack) damage")
+            }
         }
         else {
             print("Attack failed")

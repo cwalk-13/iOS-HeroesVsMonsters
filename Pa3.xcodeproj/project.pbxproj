@@ -10,6 +10,8 @@
 		5920C6AB252017D3003763BB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920C6AA252017D3003763BB /* main.swift */; };
 		5920C6B2252018BF003763BB /* DungeonCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920C6B1252018BF003763BB /* DungeonCharacter.swift */; };
 		5920C6B425201FF6003763BB /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920C6B325201FF6003763BB /* Hero.swift */; };
+		59F2DF682526583100AE6E74 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F2DF672526583100AE6E74 /* Monster.swift */; };
+		59F2DF6A25265F9C00AE6E74 /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F2DF6925265F9C00AE6E74 /* Warrior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		5920C6AA252017D3003763BB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5920C6B1252018BF003763BB /* DungeonCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonCharacter.swift; sourceTree = "<group>"; };
 		5920C6B325201FF6003763BB /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		59F2DF672526583100AE6E74 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		59F2DF6925265F9C00AE6E74 /* Warrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				5920C6AA252017D3003763BB /* main.swift */,
 				5920C6B1252018BF003763BB /* DungeonCharacter.swift */,
 				5920C6B325201FF6003763BB /* Hero.swift */,
+				59F2DF672526583100AE6E74 /* Monster.swift */,
+				59F2DF6925265F9C00AE6E74 /* Warrior.swift */,
 			);
 			path = Pa3;
 			sourceTree = "<group>";
@@ -126,6 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F2DF682526583100AE6E74 /* Monster.swift in Sources */,
+				59F2DF6A25265F9C00AE6E74 /* Warrior.swift in Sources */,
 				5920C6B2252018BF003763BB /* DungeonCharacter.swift in Sources */,
 				5920C6AB252017D3003763BB /* main.swift in Sources */,
 				5920C6B425201FF6003763BB /* Hero.swift in Sources */,
