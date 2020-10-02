@@ -11,8 +11,8 @@ class Monster: DungeonCharacter {
     var healChance: Double
     var healRange: [Int]
     
-    init(hC: Double, hR: [Int], name: String, hp: Int, aS: Int, dr: [Int], hc: Double, a: Int) {
-        healChance = hC
+    init(healC: Double, hR: [Int], name: String, hp: Int, aS: Int, dr: [Int], hc: Double, a: Int) {
+        healChance = healC
         healRange = hR
         super.init(name: name, hp: hp, aS: aS, dr: dr, hc: hc, a: a)
     }

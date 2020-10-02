@@ -8,5 +8,9 @@
 
 import Foundation
 
-print("Hello, World!")
+var hero: Hero
+var monster: Monster
+let game = HeroVsMonster()
 
+game.heroTurn()
+game.monsterTurn()

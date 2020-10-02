@@ -32,9 +32,9 @@ class DungeonCharacter {
                 self.attack = Int.random(in: damRange[0]...damRange[1])
                 print("\(name) attacks for: \(attack) damage")
             }
-        }
-        else {
-            print("Attack failed")
+            else {
+                print("\(name) missed")
+            }
         }
     }
 }

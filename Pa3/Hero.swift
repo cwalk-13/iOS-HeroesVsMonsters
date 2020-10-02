@@ -25,4 +25,19 @@ class Hero: DungeonCharacter {
             self.name = theName
         }
     }
+    
+    func block() -> Bool {
+        var chance: Double
+        if blockChance > 0.0 {
+            chance = Double.random(in: 0.0...1.0)
+            if chance <= blockChance {
+                return true
+            }
+        }
+        return false
+    }
+    
+    
+    func special() {
+    }
 }
