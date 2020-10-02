@@ -14,6 +14,8 @@
 		5961357E25268812005395CA /* HeroVsMonster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961357D25268812005395CA /* HeroVsMonster.swift */; };
 		596135802526A27D005395CA /* Sorceress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961357F2526A27D005395CA /* Sorceress.swift */; };
 		596135822526AB65005395CA /* Thief.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596135812526AB65005395CA /* Thief.swift */; };
+		5995761C2526C5C90000F197 /* Gremlin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5995761B2526C5C90000F197 /* Gremlin.swift */; };
+		5995761E2526C6960000F197 /* Skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5995761D2526C6960000F197 /* Skeleton.swift */; };
 		59F2DF682526583100AE6E74 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F2DF672526583100AE6E74 /* Monster.swift */; };
 		59F2DF6A25265F9C00AE6E74 /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F2DF6925265F9C00AE6E74 /* Warrior.swift */; };
 /* End PBXBuildFile section */
@@ -39,6 +41,8 @@
 		5961357D25268812005395CA /* HeroVsMonster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroVsMonster.swift; sourceTree = "<group>"; };
 		5961357F2526A27D005395CA /* Sorceress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorceress.swift; sourceTree = "<group>"; };
 		596135812526AB65005395CA /* Thief.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thief.swift; sourceTree = "<group>"; };
+		5995761B2526C5C90000F197 /* Gremlin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gremlin.swift; sourceTree = "<group>"; };
+		5995761D2526C6960000F197 /* Skeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skeleton.swift; sourceTree = "<group>"; };
 		59F2DF672526583100AE6E74 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 		59F2DF6925265F9C00AE6E74 /* Warrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +86,8 @@
 				5961357D25268812005395CA /* HeroVsMonster.swift */,
 				5961357F2526A27D005395CA /* Sorceress.swift */,
 				596135812526AB65005395CA /* Thief.swift */,
+				5995761B2526C5C90000F197 /* Gremlin.swift */,
+				5995761D2526C6960000F197 /* Skeleton.swift */,
 			);
 			path = Pa3;
 			sourceTree = "<group>";
@@ -145,11 +151,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				59F2DF682526583100AE6E74 /* Monster.swift in Sources */,
+				5995761E2526C6960000F197 /* Skeleton.swift in Sources */,
 				59F2DF6A25265F9C00AE6E74 /* Warrior.swift in Sources */,
 				5961357E25268812005395CA /* HeroVsMonster.swift in Sources */,
 				596135802526A27D005395CA /* Sorceress.swift in Sources */,
 				5920C6B2252018BF003763BB /* DungeonCharacter.swift in Sources */,
 				596135822526AB65005395CA /* Thief.swift in Sources */,
+				5995761C2526C5C90000F197 /* Gremlin.swift in Sources */,
 				5920C6AB252017D3003763BB /* main.swift in Sources */,
 				5961357C2526845A005395CA /* Ogre.swift in Sources */,
 				5920C6B425201FF6003763BB /* Hero.swift in Sources */,

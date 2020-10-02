@@ -1,7 +1,8 @@
 //
 //  DungeonCharacter.swift
 //  Pa3
-//
+//  This program builds the DungeonCharacter class that all characters inherit from 
+//  CPSC 315-01, Fall 2018
 //  Created by Walker, Charles Milton on 9/26/20.
 //  Copyright © 2020 Walker, Charles Milton. All rights reserved.
 //

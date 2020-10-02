@@ -1,7 +1,8 @@
 //
 //  Ogre.swift
 //  Pa3
-//
+// This program builds the Ogre object and updates it
+//  CPSC 315-01, Fall 2018
 //  Created by Walker, Charles Milton on 10/1/20.
 //  Copyright © 2020 Walker, Charles Milton. All rights reserved.
 //

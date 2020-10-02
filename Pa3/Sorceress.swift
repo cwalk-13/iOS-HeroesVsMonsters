@@ -1,7 +1,8 @@
 //
 //  Sorceress.swift
 //  Pa3
-//
+// This program builds the Sorceress object and updates it
+//  CPSC 315-01, Fall 2018
 //  Created by Walker, Charles Milton on 10/1/20.
 //  Copyright © 2020 Walker, Charles Milton. All rights reserved.
 //
@@ -21,6 +22,10 @@ class Sorceress: Hero {
             self.hitpoints += healVal
             print("\(name) heals for: \(healVal) hitpoints")
         }
+    }
+    
+    override func reset(){
+        self.hitpoints = 75
     }
     
     override func special() {
