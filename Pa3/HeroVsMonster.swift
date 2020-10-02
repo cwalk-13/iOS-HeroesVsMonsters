@@ -141,6 +141,7 @@ class HeroVsMonster {
     
     //starts a new game with a new monster
     func startNewGame() {
+        quitGame = false
         heroWins = false
         monsterWins = false
         hero.reset() 
